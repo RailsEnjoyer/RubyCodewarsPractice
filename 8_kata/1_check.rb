@@ -5,7 +5,7 @@
   
 #   Return true if the array contains the value, false if not
   
-  def check(arr,element)
-    arr.include?(element)
-  end
+def check(arr,element)
+  arr.include?(element)
+end
   
