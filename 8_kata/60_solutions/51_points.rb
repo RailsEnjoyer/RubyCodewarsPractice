@@ -17,3 +17,4 @@ def points(games)
   games.map {|t| t[0]>t[2] ? p+=3 : t[0]==t[2] ? p+=1 : p+=0 }
   p
 end
+
