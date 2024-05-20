@@ -21,6 +21,5 @@ def sort_vowels(s)
       char + "|"
     end
   end
-
   result.join("\n")
 end
