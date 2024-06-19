@@ -4,14 +4,6 @@
 
 # The input will be a lowercase string with no spaces.
 
-# Good luck!
-
-# If you like this Kata, please try:
-
-# Indexed capitalization
-
-# Even-odd disparity
-
 def capitalize(s)
  string = s.chars.map.with_index { |n, i| i % 2 == 0 ? n.capitalize : n}.join
  [string, string.swapcase]
